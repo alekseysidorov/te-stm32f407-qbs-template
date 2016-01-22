@@ -5,7 +5,6 @@ Stm32Product {
     consoleApplication: true
     
     cpp.positionIndependentCode: false
-    cpp.executableSuffix: ".elf"
     cpp.linkerFlags: {
         base.push("-Xlinker");
         base.push("--gc-sections");
